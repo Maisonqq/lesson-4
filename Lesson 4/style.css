@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 66px;
+}
+
+.line {
+  width: 102px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: rgb(255, 139, 56);
+}
+
+.line_white {
+  width: 102px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: white;
+}
+
+.card {
+  width: 350px;
+  display: inline-block;
+}
+
+.m-rl-33 {
+  margin: 0 33px;
+}
+
+.color-gray {
+  color: rgb(134, 135, 139, 1);
+}
+
+.color-white {
+  color: white;
+}
+
+.logo {
+  background-image: url(./images/Logo.png);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  margin-top: 20px;
+  width: 80px;
+  height: 30px;
+  display: inline-block;
+}
+
+.table_inline {
+  float: right;
+  margin-right: 10%;
+  padding-top: 24px;
+}
+
+.table_position {
+  margin: 0 15px;
+  display: inline-block;
+}
+
+.header__background {
+  background-color: black;
+  height: 67px;
+}
+
+.awesome {
+  text-align: center;
+  padding-top: 102px;
+  padding-bottom: 111px;
+  font-family: "Raleway", sans-serif;
+}
+
+.stylish {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin-top: 111px;
+}
+
+.button {
+  color: #fff;
+  display: inline-block;
+  padding: 12px 30px 12px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.button:active {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.button_margin {
+  margin-top: 50px;
+}
+
+.card__discription {
+  padding-top: 16px;
+}
+
+.card__image {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 27px;
+  border: 2px solid rgb(255, 139, 56);
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image_question {
+  background-image: url(./images/lamp.png);
+}
+
+.image_keyboard {
+  background-image: url(./images/keyboard.png);
+}
+
+.image_ligthning {
+  background-image: url(./images/lightning.png);
+}
+
+.image_architecture {
+  background-image: url(./images/architecture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 54px;
+}
+
+.image_vk {
+  background-image: url(./images/vk.svg);
+}
+
+.image_facebook {
+  background-image: url(./images/facebook.svg);
+}
+
+.image_instagram {
+  background-image: url(./images/instagram.svg);
+}
+
+.logo__image {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+  background-position: center;
+  display: inline-block;
+}
+
+.blackout {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url(./images/architecture.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.stylish_text {
+  color: white;
+  padding-top: 54px;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer_background {
+  padding: 40px;
+  background: black;
+  width: 100%;
+}
+
+.footer_text {
+  margin-top: 30px;
+  color: white;
+}
+
+.pricing {
+  background: rgb(245, 245, 245, 1);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.line_pricing {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: rgb(255, 139, 56);
+}
+
+.pricing_tables {
+  list-style: none;
+  display: inline-block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
